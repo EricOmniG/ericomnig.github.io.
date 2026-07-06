@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — OmniGenius</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#050810;--line:#1b2740;--teal:#0ee8d4;--amber:#f5b544;
+        --text:#e6edf7;--dim:#7d8aa3;--faint:#4a566e}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:"Space Grotesk",sans-serif;
+       min-height:100vh;display:grid;place-items:center;padding:24px;overflow:hidden}
+  #vanta-bg{position:fixed;inset:0;z-index:0}
+  .card{position:relative;z-index:1;text-align:center}
+  .code{font-family:"JetBrains Mono",monospace;font-size:clamp(80px,18vw,150px);font-weight:700;
+        color:var(--teal);letter-spacing:-.04em;line-height:1;position:relative;display:inline-block}
+  .code::before,.code::after{content:"404";position:absolute;inset:0;overflow:hidden}
+  .code::before{color:var(--amber);clip-path:inset(0 0 55% 0);animation:g1 3s steps(2) infinite}
+  .code::after{color:#7fdbff;clip-path:inset(55% 0 0 0);animation:g2 3.3s steps(2) infinite}
+  @keyframes g1{0%,92%{transform:none}94%{transform:translate(-4px,-1px)}96%{transform:translate(3px,1px)}98%{transform:translate(-2px,0)}}
+  @keyframes g2{0%,93%{transform:none}95%{transform:translate(4px,1px)}97%{transform:translate(-3px,-1px)}99%{transform:translate(2px,0)}}
+  @media(prefers-reduced-motion:reduce){.code::before,.code::after{display:none}}
+  h1{font-size:22px;font-weight:600;margin:18px 0 8px}
+  p{font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--dim);margin-bottom:26px}
+  a{font-family:"JetBrains Mono",monospace;font-size:14px;font-weight:500;color:#050810;
+    background:var(--teal);text-decoration:none;padding:12px 24px;border-radius:5px;
+    box-shadow:0 0 26px rgba(14,232,212,.4)}
+</style>
+</head>
+<body>
+<div id="vanta-bg"></div>
+<div class="card">
+  <div class="code">404</div>
+  <h1>This node isn't connected.</h1>
+  <p>The page you're looking for doesn't exist — or hasn't been trained yet.</p>
+  <a href="/">← Back to the network</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+if (window.VANTA) VANTA.NET({ el:'#vanta-bg', THREE:window.THREE,
+  mouseControls:true, touchControls:true, gyroControls:false,
+  minHeight:200, minWidth:200, scale:1.0, scaleMobile:0.8,
+  color:0x0ee8d4, backgroundColor:0x050810, points:9, maxDistance:20, spacing:18, showDots:true });
+</script>
+</body>
+</html>
