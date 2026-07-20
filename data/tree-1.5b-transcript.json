@@ -1,0 +1,98 @@
+{
+  "model": "tree-1.5b",
+  "cards": [
+    {
+      "checkpoint": "ckpt_best.pt",
+      "step": 57000,
+      "tokens": 14942208000,
+      "perplexity": 12.52,
+      "fluency": 59.2,
+      "gpa_letter": "F+",
+      "gpa_score": 43.4,
+      "subjects": {
+        "Science": {
+          "grade": "F+",
+          "score": 53.7,
+          "on_topic_pct": 53.7,
+          "repetition_pct": 4.0,
+          "samples": [
+            {
+              "prompt": "The water cycle begins when",
+              "output": " the sun heats up the water in the oceans and lakes. As the water evaporates, it turns into a gas. It moves to the atmosphere and gets heated again. In the atmosphere, the water vapor forms clouds. The clouds then fall to the ground as rain or snow.\nThe water from"
+            },
+            {
+              "prompt": "Photosynthesis is the process by which plants",
+              "output": " convert light energy into chemical energy.\nPhotosynthesis is the process by which plants convert light energy into chemical energy. It is a vital process for all plants, and it is essential for the survival of all lifeforms on planet earth.\nIt is the process by which plants capture energy from sunlight and"
+            }
+          ]
+        },
+        "History": {
+          "grade": "F",
+          "score": 34.3,
+          "on_topic_pct": 22.2,
+          "repetition_pct": 9.2,
+          "samples": [
+            {
+              "prompt": "In 1969, the United States",
+              "output": " was preparing to send its first astronauts to space. The National Aeronautics and Space Administration (NASA), which had been created to manage the US space program, was seeking a new project. The agency was interested in putting a US flag on the moon \u2014 the first step to sending humans to Mars"
+            },
+            {
+              "prompt": "The Roman Empire fell because",
+              "output": " of several factors including loss of territory, political instability, economic stagnation, and internal struggles.\n- Political instability: The Roman Empire fell because of political instability, which included invasions, revolts, and internal conflicts.\n- Economic stagnation: The Roman Empire fell because of economic stagnation, which included"
+            }
+          ]
+        },
+        "Procedure": {
+          "grade": "F+",
+          "score": 44.3,
+          "on_topic_pct": 36.5,
+          "repetition_pct": 5.0,
+          "samples": [
+            {
+              "prompt": "To bake bread, you first need",
+              "output": " to mix the dough with water. Then, cook the dough in a large mixing bowl until it turns golden brown and crumbles.\n- To make a cake, you will need the following ingredients:\n- 1 cup flour\n- 1 cup sugar\n- 1/4 cup butter\n- 1"
+            },
+            {
+              "prompt": "To change a flat tire, start by",
+              "output": " removing the wheel from its place. Then, use a flat-car tire wrench to remove the tire from its wheel.\nIf you don\u2019t have a flat-car tire wrench, you can use a car jack to lift the tire off the wheel. Once the tire is off, you"
+            }
+          ]
+        },
+        "Definition": {
+          "grade": "F+",
+          "score": 48.6,
+          "on_topic_pct": 42.6,
+          "repetition_pct": 3.2,
+          "samples": [
+            {
+              "prompt": "A democracy is a system of government where",
+              "output": " the supreme power of a nation is held by the people. The people elect representatives to make decisions for them. The representatives are called the representatives of the people.\nA republic is a system of government in which a country\u2019s government is led by elected representatives. In a republic, the people"
+            },
+            {
+              "prompt": "Gravity is the force that",
+              "output": " acts on an object, causing it to be attracted to other objects of equal mass. The gravitational force on an object is proportional to the product of its mass and the square of the distance between the object and the source of the force. G is a universal constant, equal to 9.8 meters per"
+            }
+          ]
+        },
+        "Narrative": {
+          "grade": "F",
+          "score": 36.0,
+          "on_topic_pct": 23.3,
+          "repetition_pct": 7.5,
+          "samples": [
+            {
+              "prompt": "Once upon a time, in a small village,",
+              "output": " there lived a wise man. He was so wise, that he could predict the future.\nOne day, the village people came to him for advice. They asked him for a prediction.\nThe wise man said, \u201cI will ask my son. He is a very good student. He"
+            },
+            {
+              "prompt": "The old house at the end of the street",
+              "output": ".\n2. A place where something is stored, especially a building.\n3. To put something away; to keep.\n4. To be capable of being stored.\n5. To be the source of; to give rise to:\n6. To be capable of being stored;"
+            }
+          ]
+        }
+      },
+      "battery_version": "v1"
+    }
+  ],
+  "battery_version": "v1"
+}
