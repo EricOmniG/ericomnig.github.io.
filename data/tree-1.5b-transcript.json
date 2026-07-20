@@ -92,6 +92,98 @@
         }
       },
       "battery_version": "v1"
+    },
+    {
+      "checkpoint": "ckpt_last.pt",
+      "step": 57220,
+      "tokens": 14999879680,
+      "perplexity": 12.52,
+      "fluency": 59.2,
+      "gpa_letter": "F+",
+      "gpa_score": 41.4,
+      "subjects": {
+        "Science": {
+          "grade": "F+",
+          "score": 56.4,
+          "on_topic_pct": 55.6,
+          "repetition_pct": 1.4,
+          "samples": [
+            {
+              "prompt": "The water cycle begins when",
+              "output": " the sun heats up the water in the oceans and lakes. As the water evaporates, it turns into a gas. It rises to the top of the atmosphere and becomes clouds.\nAs the clouds form, they release water vapor. The water vapor cools, and it condenses into rain,"
+            },
+            {
+              "prompt": "Photosynthesis is the process by which plants",
+              "output": " convert sunlight and carbon dioxide into food for themselves and for the rest of the biosphere.\nPyrroles are a class of organic compounds commonly found in nature that have a distinctive pyrrolic ring structure. They are found in many plants and animals, and play important roles in various biological"
+            }
+          ]
+        },
+        "History": {
+          "grade": "F",
+          "score": 32.2,
+          "on_topic_pct": 13.0,
+          "repetition_pct": 5.6,
+          "samples": [
+            {
+              "prompt": "In 1969, the United States",
+              "output": " Air Force began planning a training mission for the B-52G Stratofortress, a long-range bomber with a range of nearly 5,000 km (3,300 mi). The aircraft would be powered by two Pratt & Whitney J75 turbojet engines, one each in the main and"
+            },
+            {
+              "prompt": "The Roman Empire fell because",
+              "output": " of several factors including loss of territory, political instability, and economic problems.\nThe fall of the Roman Empire was a result of several factors, including political instability, economic problems, and loss of territory. The emperor in charge of the Roman Empire, Marcus Aurelius, was unable to control the"
+            }
+          ]
+        },
+        "Procedure": {
+          "grade": "F+",
+          "score": 42.1,
+          "on_topic_pct": 30.4,
+          "repetition_pct": 3.8,
+          "samples": [
+            {
+              "prompt": "To bake bread, you first need",
+              "output": " to heat the oven. Breads generally require at least 180 degrees Fahrenheit to bake well. To ensure you get the best results, check that the oven is at the right temperature.\nIf you are not sure if your oven is at the right temperature, you can use a thermometer. If you"
+            },
+            {
+              "prompt": "To change a flat tire, start by",
+              "output": " removing the wheel from the vehicle. Then, use a flat-car tire wrench to remove the tire from the wheel.\nIf you don\u2019t have a flat-car tire wrench, you can use a car jack to lift the car off the ground. Once the tire is removed, you"
+            }
+          ]
+        },
+        "Definition": {
+          "grade": "F+",
+          "score": 41.5,
+          "on_topic_pct": 48.1,
+          "repetition_pct": 17.4,
+          "samples": [
+            {
+              "prompt": "A democracy is a system of government where",
+              "output": " the supreme power is vested in the people, and exercised by them directly or indirectly through a system of representation.\n- Liberty is the right to act, speak or think as one chooses.\n- In the United States, the Declaration of Independence states that all people are created equal and \u201cend"
+            },
+            {
+              "prompt": "Gravity is the force that",
+              "output": " acts on an object, and is the reason why you can fall down.\nThe pull of gravity on an object is measured in terms of its \u2018weight\u2019 or gravitational pull.\nThe weight of an object is the product of its mass and the acceleration due to gravity.\nA common"
+            }
+          ]
+        },
+        "Narrative": {
+          "grade": "F",
+          "score": 35.0,
+          "on_topic_pct": 21.5,
+          "repetition_pct": 7.6,
+          "samples": [
+            {
+              "prompt": "Once upon a time, in a small village,",
+              "output": " there lived a wise man who was very happy to see the whole village. He was the owner of a very nice farm. He had a very large farm, and he had a beautiful wife. The village was very happy to see him.\nOne day, the wise man went out to look at"
+            },
+            {
+              "prompt": "The old house at the end of the street",
+              "output": ".\n2. A place where something is stored, especially a building.\n3. To put something in a safe place.\n4. To be careful or careful when making a decision.\n5. To be strong, determined, or determined.\n6. To be well-liked"
+            }
+          ]
+        }
+      },
+      "battery_version": "v1"
     }
   ],
   "battery_version": "v1"
